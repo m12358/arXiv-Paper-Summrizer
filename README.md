@@ -5,7 +5,7 @@ This repository contains a script that automatically summarizes arXiv papers bas
 ## Features
 
 - Fetch arXiv papers based on a query
-- Summarize papers using OpenAI GPT API
+- Summarize papers using OpenAI GPT API (in Japanese)
 - Send summarized papers via email
 
 ## Prerequisites
@@ -23,7 +23,12 @@ This repository contains a script that automatically summarizes arXiv papers bas
 
 ## Usage
 
-Run the `summarize_arXiv_papers` function in your Google Apps Script environment. The script will fetch the papers based on your query, summarize them, and send the summaries to the specified email address.
+Run the `summarize_arXiv_papers` function in your Google Apps Script environment. The script will fetch the papers based on your query, summarize them in Japanese, and send the summaries to the specified email address.
+
+**Notes:**
+
+- The summaries are generated in Japanese by default. If you want to change the language, modify the `summary_request` variable to your desired language.
+- This script is designed to be run daily using Google Apps Script's scheduling features. Set up a time-driven trigger to execute the `summarize_arXiv_papers` function every day at your preferred time.
 
 ## License
 
