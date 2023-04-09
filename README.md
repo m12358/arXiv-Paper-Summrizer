@@ -27,4 +27,4 @@ Run the `summarize_arXiv_papers` function in your Google Apps Script environment
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
